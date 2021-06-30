@@ -1,0 +1,42 @@
+
+.logo{
+    width: 125px;
+  }
+
+.nav{
+    font-size: 15px;
+    font-weight: 400;
+    color:white;
+    transition: 1.5s;
+    line-height: 20px;
+    padding: 5px; 
+  
+}
+
+.nav:hover{
+    text-decoration: none;
+    text-decoration: overline;
+    color: orange;
+   
+}
+
+.log-Btn{
+    border: none;
+    background-color: #28A745;
+    color:rgb(216, 24, 88);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1.5s;
+    
+}
+
+.log-Btn:hover{
+    border: orange;
+    border-radius: 5px;
+    background-color: orange;
+    color: rgb(20, 19, 19);
+    outline: orange;
+    line-height: 18px;
+    padding: 7px; 
+}
