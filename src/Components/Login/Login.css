@@ -1,0 +1,71 @@
+
+.error-div{
+    margin: 0 auto;
+}
+.login-from{
+    margin: 0 auto;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px skyblue;  
+}
+
+/* .login-inputs{
+    
+} */
+
+.input-all{
+    margin-top: 4px;
+    
+}
+#login {
+    font-size: 12px;
+    font-weight: 500;
+    color: orangered;
+    margin-left: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#account{
+    font-size: 13px;
+    font-weight: 500;
+    color: blue;
+}
+
+.login-button{
+    margin-top: 9px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.Create-btn{
+    margin-top: 9px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background-color: #3076FF;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+ .Create-btn:hover{
+    background-color: green;
+ } 
+ .continue{
+    width: 250px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    color: green;
+    border: 1px solid gray;
+ }

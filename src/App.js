@@ -9,6 +9,7 @@ import {
 import About from './Components/Others/About/About';
 import Contact from './Components/Others/Contact/Contact';
 import NotFound from './Components/404Page/NotFound';
+import Login from './Components/Login/Login';
 
 ;
 
@@ -30,6 +31,10 @@ function App() {
 
         <Route path="/contact">
           <Contact />
+        </Route>
+
+        <Route path="/login">
+          <Login />
         </Route>
 
         <Route exact path="/">

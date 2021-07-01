@@ -21,22 +21,24 @@
 }
 
 .log-Btn{
-    border: none;
-    background-color: #28A745;
-    color:rgb(216, 24, 88);
-    font-size: 15px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 1.5s;
-    
-}
-
-.log-Btn:hover{
     border: orange;
     border-radius: 5px;
     background-color: orange;
-    color: rgb(20, 19, 19);
-    outline: orange;
+    color:black;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
     line-height: 18px;
-    padding: 7px; 
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.log-Btn:hover{
+    border: #0069D9;
+    border-radius: 5px;
+    background-color: #0069D9;
+    color: whitesmoke;
+    outline: #0069D9;
+    line-height: 18px;
+    text-decoration: none;
 }

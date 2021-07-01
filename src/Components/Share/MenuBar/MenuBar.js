@@ -17,9 +17,8 @@ const MenuBar = () => {
                     <Link className=" mx-3 nav"  to="contact" >Contact </Link>
                     
                 </Nav>
-                <div>
-                    <button className=" mx-3 log-Btn " >Login</button>
-                </div>
+                    <Link to="/login" className=" mx-3 log-Btn "> Login </Link>
+                    
             </Navbar.Collapse>
         </Navbar>
 
